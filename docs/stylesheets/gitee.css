@@ -1,0 +1,23 @@
+
+/* 修改表格的样式为Gitee风格 */
+table {
+    width: 100%; /* 设置表格宽度为100% */
+    border-collapse: collapse; /* 合并表格边框 */
+    border-spacing: 0; /* 设置单元格之间的间距为0 */
+    border: 1px solid #e8e8e8; /* 设置表格边框颜色 */
+}
+
+th, td {
+    padding: 6px 13px; /* 设置单元格内边距 */
+    border: 1px solid #e8e8e8; /* 设置单元格边框颜色 */
+}
+
+th {
+    background-color: #f8f8f8; /* 设置表头背景色 */
+    font-weight: bold; /* 设置表头文字加粗 */
+    text-align: left; /* 设置表头文字居左对齐 */
+}
+
+tr:nth-child(even) {
+    background-color: #f8f8f8; /* 设置偶数行背景色 */
+}

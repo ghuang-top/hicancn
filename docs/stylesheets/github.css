@@ -1,0 +1,24 @@
+
+
+/* 修改表格的样式为GitHub风格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #dfe2e5; /* 边框颜色 */
+}
+
+th, td {
+    padding: 6px 13px; /* 单元格内边距 */
+    border: 1px solid #dfe2e5; /* 单元格边框颜色 */
+}
+
+th {
+    background-color: #f6f8fa; /* 表头背景色 */
+    font-weight: bold; /* 表头文字加粗 */
+    text-align: left; /* 表头文字居左 */
+}
+
+tr:nth-child(even) {
+    background-color: #f6f8fa; /* 偶数行背景色 */
+}

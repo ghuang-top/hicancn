@@ -1,0 +1,12 @@
+
+/* 保持Markdown网格的最大宽度为初始值 */
+.md-grid {
+  max-width:  1700px;
+ }
+
+
+/* 设置警告框（注释）的最大宽度为500像素 */
+ .md-typeset .admonition.note {
+    max-width: 500px;
+
+  }

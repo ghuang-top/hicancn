@@ -1,0 +1,27 @@
+
+/* 炫酷的表格样式 */
+table {
+    width: 100%; /* 设置表格宽度为100% */
+    border-collapse: collapse; /* 合并表格边框 */
+    border-spacing: 0; /* 设置单元格之间的间距为0 */
+}
+
+th, td {
+    padding: 10px; /* 设置单元格内边距 */
+    border: none; /* 移除单元格边框 */
+}
+
+th {
+    background-color: #80cbc4; /* 设置表头背景色为浅绿色 */
+    color: white; /* 设置表头文字颜色为白色 */
+    text-align: left; /* 设置表头文字居左对齐 */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* 设置偶数行背景色 */
+}
+
+/* 当鼠标悬停在行上时，改变背景颜色 */
+tr:hover {
+    background-color: #ddd;
+}

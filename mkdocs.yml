@@ -56,6 +56,10 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/stylish.css
+
 nav:  # 定义导航栏
   - Home: 
     - Home: index.md  # 首页链接
